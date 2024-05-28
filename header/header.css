@@ -1,0 +1,41 @@
+.header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 30rem 1fr 30rem;
+    grid-template-rows: 1fr;
+    background-color: rgb(68, 211, 68);
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem;
+    
+    
+}
+.bloque1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 2rem;
+
+    
+}
+.bloque2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: white;
+    background-color: green; 
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.centro{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 2rem;
+    
+}
